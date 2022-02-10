@@ -1,23 +1,58 @@
+:root{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    --main-text-color:black;
+    --secondary-text-color:white;
+    --main-background-color:#FFFAF8;
+    --secondary-background-color:#252525;
+    background-color: var(--main-background-color,white);
+}
 body{
-    width: 100vw;
-    height: 100vh;
+    display: flex;
+    justify-content: center;
+    /* align-items: cente; */
 }
 main{
     display:flex;
 }
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 1.5rem;
+}
 .image{
-    height: 100%;
+    /* height: 100%; */
     width: 50%; 
     background-image: url(benjamin-voros-AD6rn3vqG7o-unsplash.jpg); 
     background-repeat: no-repeat no-repeat;
-    background-size: 100% 100%;
-
+    background-size: contain;
+    background-position: center right;
 }
 .content{
     padding:3rem;
     width:50%;
+    /* background-color: ; */
 }
 .form-content-header{
     display: flex;
     flex-flow: column nowrap;
+}
+.inputs-section>section{
+    display: flex;
+    margin: 25px 0;
+}
+label{
+    text-transform: uppercase;
+    /* margin:20px 0; */
+}
+input{
+    margin:10px 0;
+    width:80%;
+    border-radius: 5px;
+    padding:5px;
+}
+input[type="submit"]{
+    width:fit-content;
+    padding:10px;
 }
