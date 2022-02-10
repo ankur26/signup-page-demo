@@ -1,6 +1,6 @@
 # PROJECT: SIGNUP FORM
 
-This is my implementation of the Odin Project's signup form for an imaginary service, the idea for this project is to use the intermediate level skills learnt in CSS and HTML to style a form which is possibly tha most painful thing to style for when it comes to CSS.
+This is my implementation of the Odin Project's signup form for an imaginary service, the idea for this project is to use the intermediate level skills learnt in CSS and HTML to style a form which is possibly the most painful thing to style for when it comes to CSS.
 <br>
 
 [Link to TOP page](https://www.theodinproject.com/paths/full-stack-javascript/courses/intermediate-html-and-css/lessons/sign-up-form)
