@@ -17,4 +17,10 @@ This is my implementation of the Odin Project's signup form for an imaginary ser
 7. Cross-compatibility across browsers.
 
 
-**This is a work in progress: more to be added at a later stage**
+## [Link to Deployed Website](https://ankur26.github.io/signup-page-demo/)
+
+## More additions to be done.
+
+* Dark Mode using CSS Variables
+* Mobile Layout.
+* Preprocessor file for layout ( Sass, SCSS )
